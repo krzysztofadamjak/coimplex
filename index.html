@@ -56,6 +56,14 @@
     a:hover {
       text-decoration: underline;
     }
+    .warning {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffeeba;
+      padding: 10px 15px;
+      margin-bottom: 20px;
+      border-radius: 4px;
+      color: #856404;
+    }
     footer {
       background-color: #0d47a1;
       color: white;
@@ -64,14 +72,6 @@
       margin-top: 40px;
       font-size: 0.9rem;
       border-top: 3px solid #1976d2;
-    }
-    .warning {
-      background-color: #fff3cd;
-      border-left: 6px solid #ffeeba;
-      padding: 10px 15px;
-      margin-bottom: 20px;
-      border-radius: 4px;
-      color: #856404;
     }
   </style>
 </head>
@@ -108,61 +108,85 @@
     </section>
 
     <section>
-      <h2>Zagrożenia prawne i konsekwencje</h2>
-      <p>Udział w piramidzie finansowej jest przestępstwem według polskiego prawa. Oto najważniejsze przepisy:</p>
+      <h2>Certyfikaty i audyty</h2>
+      <p>CoinPlex może prezentować certyfikaty typu "SSL-secured" lub wewnętrzne plakietki, ale brakuje potwierdzenia ich wartości:</p>
       <ul>
-        <li><strong>Kodeks karny, art. 286</strong> - Oszustwo: grozi kara pozbawienia wolności do 8 lat.</li>
-        <li><strong>Kodeks karny, art. 297 §1</strong> - Namawianie do udziału w nielegalnym procederze (np. piramidzie finansowej): kara do 3 lat pozbawienia wolności.</li>
-        <li><strong>Ustawa o przeciwdziałaniu praniu pieniędzy i finansowaniu terroryzmu (AML)</strong> - obowiązek zgłaszania podejrzanych transakcji, a brak transparentności może skutkować działaniami służb.</li>
-        <li><strong>Kodeks karny skarbowy, art. 62</strong> - Unikanie opodatkowania lub niewłaściwe rozliczanie przychodów z działalności gospodarczej, grozi karą grzywny lub pozbawienia wolności do 3 lat.</li>
+        <li>Nie posiada certyfikatów takich jak ISO 27001, PCI‑DSS, VASP ani licencji KNF.</li>
+        <li>Nie przeszła żadnego niezależnego audytu technicznego, finansowego czy smart contractów.</li>
+        <li>Wszystkie certyfikaty mogą być generowane wewnętrznie — nie mają mocy prawnej.</li>
       </ul>
-      <p><strong>Problem z rozliczeniem w urzędzie skarbowym:</strong> Ponieważ aplikacja CoinPlex nie potwierdza rzeczywistego obrotu kryptowalutami, urząd skarbowy może zakwestionować prawidłowość rozliczeń podatkowych, co może skutkować postępowaniem karnym skarbowym i karami finansowymi.</p>
+      <p><strong>Firma legalna i wiarygodna powinna posiadać:</strong></p>
+      <ul>
+        <li>Rejestrację w KNF (np. instytucja płatnicza lub kantor krypto),</li>
+        <li>Zgłoszenie działalności do GIIF (AML/KYC),</li>
+        <li>Certyfikaty ISO 27001, PCI‑DSS (jeśli dotyczy),</li>
+        <li>Audyt smart contractów (jeśli operuje przez blockchain),</li>
+        <li>Licencję VASP, audyt finansowy przez firmy typu Deloitte lub EY.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Zagrożenia prawne i konsekwencje</h2>
+      <ul>
+        <li><strong>Kodeks karny, art. 286</strong> – oszustwo, do 8 lat więzienia.</li>
+        <li><strong>Kodeks karny, art. 297 §1</strong> – namawianie do piramidy, do 3 lat więzienia.</li>
+        <li><strong>AML</strong> – brak procedur może skutkować sankcjami.</li>
+        <li><strong>Kodeks karny skarbowy, art. 62</strong> – nieprawidłowe rozliczenia podatkowe, grzywna lub więzienie do 3 lat.</li>
+      </ul>
+      <p><strong>Uwaga podatkowa:</strong> Brak potwierdzeń realnych transakcji może skutkować kwestionowaniem rozliczeń przez US.</p>
     </section>
 
     <section>
       <h2>Jak wyjść prawnie z tej sytuacji?</h2>
-      <p>Jeśli zainwestowałeś w CoinPlex lub podejrzewasz, że zostałeś oszukany, rozważ następujące kroki:</p>
       <ul>
-        <li><strong>Zgłoś sprawę do Komisji Nadzoru Finansowego (KNF)</strong> – nadzorującej rynek finansowy w Polsce. Formularz zgłoszeniowy znajdziesz na <a href="https://www.knf.gov.pl/">knf.gov.pl</a>.</li>
-        <li><strong>Zgłoś się do Urzędu Ochrony Konkurencji i Konsumentów (UOKiK)</strong> – organizacji dbającej o prawa konsumentów. Więcej na <a href="https://www.uokik.gov.pl/">uokik.gov.pl</a>.</li>
-        <li><strong>Powiadom lokalne organy ścigania</strong> – np. policję. Możesz złożyć zawiadomienie o podejrzeniu oszustwa.</li>
-        <li><strong>Skonsultuj się z prawnikiem specjalizującym się w prawie finansowym lub karnym</strong> – pomoże Ci ustalić najlepszą strategię i przygotować ewentualne pozwy.</li>
-        <li><strong>Zachowaj wszelką dokumentację dotyczącą inwestycji</strong> – potwierdzenia wpłat, korespondencję, zrzuty ekranu itp.</li>
+        <li>Zgłoś się do <a href="https://www.knf.gov.pl/">KNF</a> i <a href="https://www.uokik.gov.pl/">UOKiK</a>.</li>
+        <li>Złóż zawiadomienie na Policji lub w Prokuraturze.</li>
+        <li>Zgłoś incydent do CERT Polska (NASK).</li>
+        <li>Skonsultuj się z prawnikiem (prawo finansowe/karny).</li>
+        <li>Zachowaj dokumentację: wpłaty, zrzuty ekranu, korespondencję.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Warunki legalnego działania w Polsce</h2>
+      <ul>
+        <li>Rejestracja spółki w Polsce lub UE (KRS, CEIDG)</li>
+        <li>Licencja KNF lub certyfikat instytucji płatniczej</li>
+        <li>Procedury AML/KYC i zgłoszenie w GIIF</li>
+        <li>Pełna transparentność – właściciele, siedziba, pracownicy</li>
+        <li>Brak mechanizmów piramidalnych i gwarancji zysków</li>
       </ul>
     </section>
 
     <section>
       <h2>Przykłady podobnych oszustw w historii</h2>
-      <p>Podobne schematy oszustw i piramid finansowych zdarzały się wielokrotnie w historii. Oto kilka głośnych przykładów:</p>
       <ul>
-        <li>
-          <strong>Piramida Charlesa Ponziego (lata 20. XX wieku)</strong><br />
-          Jeden z najsłynniejszych oszustów w historii, Charles Ponzi, obiecał inwestorom ogromne zyski z inwestycji w znaczki pocztowe i kupony międzynarodowe. W rzeczywistości wypłacał zyski starszym inwestorom z pieniędzy nowych uczestników. Schemat ten spowodował stratę milionów dolarów i stał się podstawą nazwy „piramida Ponziego”. 
-        </li>
-        <li>
-          <strong>Bernie Madoff (2008)</strong><br />
-          Bernie Madoff stworzył największą piramidę Ponziego w historii, oszukując inwestorów na około 65 miliardów dolarów. Jego fundusz inwestycyjny istniał tylko pozornie, a zyski wypłacał ze środków wpłacanych przez nowych klientów. Madoff został skazany na 150 lat więzienia.
-        </li>
-        <li>
-          <strong>Piramida MMM (lata 90. i 2010)</strong><br />
-          MMM to rosyjska piramida finansowa stworzona przez Siergieja Mavrodi. Obiecywała bardzo wysokie zwroty, co przyciągnęło miliony ludzi w Rosji i krajach byłego ZSRR. Program wielokrotnie upadał i był wznowiony pod różnymi nazwami, wciąż oszukując nowych uczestników.
-        </li>
-        <li>
-          <strong>OneCoin (2014-2017)</strong><br />
-          OneCoin przedstawiany był jako nowa kryptowaluta, ale w rzeczywistości był to schemat piramidy Ponziego. Zaangażował setki tysięcy inwestorów na całym świecie, którzy stracili miliardy dolarów. Założyciele zostali zatrzymani i skazani w kilku krajach.
-        </li>
+        <li><strong>Charles Ponzi (lata 20.)</strong> – słynny pionier schematu, który doprowadził do milionowych strat.</li>
+        <li><strong>Bernie Madoff (2008)</strong> – największa piramida, straty ~65 mld USD; wyrok 150 lat więzienia.</li>
+        <li><strong>MMM Russia</strong> – rosyjska piramida obiecująca szybkie zyski; kolaps ich platformy.</li>
+        <li><strong>OneCoin (2014–2017)</strong> – promowana jako kryptowaluta, ale piramida; miliardy strat, zatrzymania.</li>
       </ul>
-      <p>Te przykłady pokazują, że schematy oszustw w finansach mają powtarzalne cechy: obietnice wysokich zysków, brak przejrzystości, presja na rekrutację nowych uczestników i brak realnej działalności gospodarczej.</p>
+    </section>
+
+    <section>
+      <h2>Źródła i opinie ekspertów</h2>
+      <ul>
+        <li><a href="https://behindmlm.com/mlm-reviews/coinplex-review-click-a-button-app-ponzi-scheme/" target="_blank">BehindMLM – CoinPlex jako schemat Ponziego</a></li>
+        <li><a href="https://www.scamadviser.com/check-website/coinplex.ai" target="_blank">ScamAdviser – ekstremalnie niska ocena zaufania</a></li>
+        <li><a href="https://www.reddit.com/r/scams/" target="_blank">Reddit /r/scams – ostrzeżenia użytkowników</a></li>
+        <li><a href="https://www.reddit.com/r/cryptocurrency/" target="_blank">Reddit /r/cryptocurrency – krytyka i analizy</a></li>
+      </ul>
     </section>
 
     <section>
       <h2>Podsumowanie</h2>
-      <p>Zalecamy ostrożność i dokładne sprawdzanie każdej platformy inwestycyjnej, szczególnie tych, które obiecują szybkie i wysokie zyski bez transparentnej działalności. Jeśli podejrzewasz, że możesz mieć do czynienia z piramidą finansową, nie inwestuj dalszych środków i zgłoś sprawę odpowiednim organom.</p>
+      <p>CoinPlex wykazuje wszystkie cechy typowej piramidy finansowej – brak transparentności, brak audytów, brak integracji z rynkiem krypto. Udział może prowadzić do strat, problemów prawnych i podatkowych. Zalecamy zachowanie ostrożności i zgłoszenie sprawy odpowiednim instytucjom.</p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Poradnik Bezpieczeństwa Finansowego. Wszystkie prawa zastrzeżone.</p>
+    <p>© 2025 Niezbędnik IT. Wszystkie prawa zastrzeżone.</p>
   </footer>
+
 </body>
 </html>
